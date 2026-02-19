@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: ZERO-DAY-BROKER
+  
 
 steps:
 - task: Maven@3
